@@ -1,0 +1,15 @@
+method: POST
+protocal: http
+ip: 172.16.25.62
+port: 80
+uri: /api/web/case/call-complete
+query:
+  id: mock-1616985940
+  token: aef941ee7f28bb22ac357abcff5d30cf
+  currentStatus: '11'
+encoding: UTF-8
+header:
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywHnXUAKrA0t0PHQu
+cookies: {}
+body: '------WebKitFormBoundarywHnXUAKrA0t0PHQuContent-Disposition: form-data; name="extInfo"{"returns":"实际解决","desc":"呜呜呜呜","result":"","formType":5}------WebKitFormBoundarywHnXUAKrA0t0PHQuContent-Disposition:
+  form-data; name="id"mock-1616985940------WebKitFormBoundarywHnXUAKrA0t0PHQu--'

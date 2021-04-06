@@ -1,0 +1,13 @@
+method: POST
+protocal: http
+ip: 172.16.25.62
+port: 80
+uri: /api/app/users/login
+query: {}
+encoding: UTF-8
+header:
+  Content-Type: application/json;charset=UTF-8
+cookies: {}
+body:
+  username: Jane_cm_qj
+  password: abc@123456

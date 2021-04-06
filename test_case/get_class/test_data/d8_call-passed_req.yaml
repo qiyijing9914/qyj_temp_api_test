@@ -1,0 +1,17 @@
+method: POST
+protocal: http
+ip: 172.16.25.62
+port: 80
+uri: /api/web/case/call-passed
+query:
+  id: mock-1616985940
+  token: 91aea8d852b6c93fca014918664424a4
+  currentStatus: '5'
+encoding: UTF-8
+header:
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarys0TwVz8KTMytfeXn
+cookies: {}
+body: '------WebKitFormBoundarys0TwVz8KTMytfeXnContent-Disposition: form-data; name="id"665191------WebKitFormBoundarys0TwVz8KTMytfeXnContent-Disposition:
+  form-data; name="desc"1212------WebKitFormBoundarys0TwVz8KTMytfeXnContent-Disposition:
+  form-data; name="result"1------WebKitFormBoundarys0TwVz8KTMytfeXnContent-Disposition:
+  form-data; name="extInfo"{"returns":"","desc":"1212","result":"1","formType":7}------WebKitFormBoundarys0TwVz8KTMytfeXn--'

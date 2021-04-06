@@ -1,0 +1,797 @@
+2021-03-30 15:06:56,081  - INFO - 
+-----------------test_case/get_class/test_get_class.py::d1_login-----------------
+2021-03-30 15:06:56,083  - INFO - 
+请求地址：
+http://172.16.25.62:80/api/app/users/login
+2021-03-30 15:06:56,085  - INFO - 
+请求头：
+{
+    "Content-Type": "application/json;charset=UTF-8"
+}
+2021-03-30 15:06:56,087  - INFO - 
+请求正文：
+{
+    "username": "Jane_cm_qj",
+    "password": "abc@123456"
+}
+2021-03-30 15:06:57,543  - INFO - 
+响应报文：
+{
+    "code": 200,
+    "data": {
+        "token": "4534c0c663267ba80b2b62b987053f43",
+        "username": "Jane_cm_qj",
+        "id": 5524,
+        "name": "Jane_长宁区管理",
+        "district": "崇明区",
+        "grid_center": "",
+        "grid_centerName": [],
+        "department": [],
+        "departmentName": [],
+        "street": "0",
+        "street_name": "",
+        "d_name": "",
+        "district_id": 2,
+        "role": [
+            {
+                "item_name": "district_manager",
+                "user_id": "5524",
+                "created_at": "1617088016",
+                "roleName": "区级管理员"
+            },
+            {
+                "item_name": "supervise_handle_member",
+                "user_id": "5524",
+                "created_at": "1617088016",
+                "roleName": "督办员"
+            }
+        ],
+        "rights": [
+            "EventManagementMenu",
+            "EventReportMenu",
+            "EventRegisterMenu",
+            "EventDispatchMenu",
+            "EventDealMenu",
+            "EventCheckMenu",
+            "EventCloseMenu",
+            "QueryManagementMenu",
+            "EventQueryMenu",
+            "AutomationManagementMenu",
+            "AutomaticDiscoveryRuleMenu",
+            "AutomaticRegisterRuleMenu",
+            "AutomaticDispatchRuleMenu",
+            "AutomaticDealRuleMenu",
+            "AutomaticCheckRuleMenu",
+            "AutomaticCloseRuleMenu",
+            "EventReportViewPage",
+            "EventReportEventReportBtn",
+            "EventRegisterViewPage",
+            "EventRegisterAcceptBtn",
+            "EventRegisterSaveBtn",
+            "EventRegisterCreateBtn",
+            "EventRegisterNotCreateBtn",
+            "EventDispatchViewPage",
+            "EventDispatchDesignatedDisposerBtn",
+            "EventDispatchChargebackBtn",
+            "EventDealViewPage",
+            "EventDealChargebackBtn",
+            "EventDealHandleBtn",
+            "EventCheckViewPage",
+            "EventCheckDesignatedCheckerBtn",
+            "EventCloseViewPage",
+            "EventCloseCloseBtn",
+            "EventCloseNoCloseBtn",
+            "EventQueryViewPage",
+            "AutomaticRegisterViewPage",
+            "AutomaticRegisterCreateBtn",
+            "AutomaticRegisterEditBtn",
+            "AutomaticRegisterDelBtn",
+            "AutomaticDispatchViewPage",
+            "AutomaticDispatchCreateBtn",
+            "AutomaticDispatchEditBtn",
+            "AutomaticDispatchDelBtn",
+            "AutomaticDealViewPage",
+            "AutomaticDealCreateBtn",
+            "AutomaticDealEditBtn",
+            "AutomaticDealDelBtn",
+            "AutomaticCheckViewPage",
+            "AutomaticCheckCreateBtn",
+            "AutomaticCheckEditBtn",
+            "AutomaticCheckDelBtn",
+            "AutomaticCloseViewPage",
+            "AutomaticCloseCreateBtn",
+            "AutomaticCloseEditBtn",
+            "AutomaticCloseDelBtn",
+            "APPEventUploadMenu",
+            "APPEventDealMenu",
+            "APPEventCheckMenu",
+            "APPDashboardMenu",
+            "APPEventMapMenu",
+            "APPSelfReportedMenu",
+            "APPLoginMenu",
+            "APPInformationCheckMenu",
+            "APP",
+            "EventUploadMenu",
+            "EventDealMenu",
+            "EventCheckMenu",
+            "DashboardMenu",
+            "EventMapMenu",
+            "EventReportCheckDispatch",
+            "StatisticsMenu",
+            "EventStatisticsMenu",
+            "DistrictDataRight",
+            "ManagerRight",
+            "SelfManagementMenu",
+            "SelfEventReportMenu",
+            "SelfEventConfimtMenu",
+            "SelfEventDealMenu",
+            "SelfEventCheckMenu",
+            "EventManageControlMenu",
+            "MemberWorkingCalcuMenu",
+            "SystemConfiguration",
+            "RequestUpMenu",
+            "SelfEventDelayMenu",
+            "EventSupervisionMenu",
+            "EventSupervisionViewPage",
+            "EventSupervisionReturnOrderCheckBtn",
+            "EventSupervisionDelayCheckBtn",
+            "EventSupervisionBtn"
+        ],
+        "level": 1,
+        "selectLevel": 1,
+        "avatar": "",
+        "identity": "",
+        "phone": ""
+    }
+}
+2021-03-30 15:06:57,565  - INFO - 
+断言条件：
+resp.status_code == 200
+2021-03-30 15:06:57,571  - INFO - 
+提取数据列表：
+无
+2021-03-30 15:06:57,571  - INFO - 
+
+
+
+2021-03-30 15:06:57,591  - INFO - 
+-----------------test_case/get_class/test_get_class.py::d2_report-list-----------------
+2021-03-30 15:06:57,593  - INFO - 
+请求地址：
+http://172.16.25.62:80/api/web/events/report-list?start=1609171200&end=1617033599&pageSize=10&page=1&sort=event_time&sort_type=0&isResolve=0&token=303d3bc2262b172e6fcc5bb9ba84902e
+2021-03-30 15:06:57,596  - INFO - 
+请求头：
+{}
+2021-03-30 15:06:57,727  - INFO - 
+响应报文：
+{
+    "msg": "无效的token或token已过期",
+    "code": 401
+}
+2021-03-30 15:06:57,732  - INFO - 
+断言条件：
+resp.status_code == 200
+2021-03-30 15:06:57,737  - INFO - 
+提取数据列表：
+无
+2021-03-30 15:06:57,737  - INFO - 
+
+
+
+2021-03-30 15:06:57,746  - INFO - 
+-----------------test_case/get_class/test_get_class.py::d3_mock-1616985940-----------------
+2021-03-30 15:06:57,748  - INFO - 
+请求地址：
+http://172.16.25.62:80/api/web/events/mock-1616985940?token=303d3bc2262b172e6fcc5bb9ba84902e&id=mock-1616985940&currentStatus=1
+2021-03-30 15:06:57,750  - INFO - 
+请求头：
+{
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+2021-03-30 15:06:58,024  - INFO - 
+-----------------test_case/get_class/test_get_class.py::d4_login-----------------
+2021-03-30 15:06:58,025  - INFO - 
+请求地址：
+http://172.16.25.62:80/api/app/users/login
+2021-03-30 15:06:58,027  - INFO - 
+请求头：
+{
+    "Content-Type": "application/json;charset=UTF-8"
+}
+2021-03-30 15:06:58,029  - INFO - 
+请求正文：
+{
+    "username": "Jane",
+    "password": "abc@123456"
+}
+2021-03-30 15:07:00,226  - INFO - 
+响应报文：
+{
+    "code": 200,
+    "data": {
+        "token": "8182a057f2c0cef55cbd393e565e9a32",
+        "username": "Jane",
+        "id": 5522,
+        "name": "崇明建管委",
+        "district": "崇明区",
+        "grid_center": "",
+        "grid_centerName": [],
+        "department": [
+            2003
+        ],
+        "departmentName": [
+            "建管委"
+        ],
+        "street": "0",
+        "street_name": "",
+        "d_name": "",
+        "district_id": 2,
+        "role": [
+            {
+                "item_name": "acceptance_member",
+                "user_id": "5522",
+                "created_at": "1617088019",
+                "roleName": "上报受理员"
+            },
+            {
+                "item_name": "department_manager",
+                "user_id": "5522",
+                "created_at": "1617088019",
+                "roleName": "部门管理员"
+            },
+            {
+                "item_name": "grid_dealer",
+                "user_id": "5522",
+                "created_at": "1617088019",
+                "roleName": "网格处置员"
+            },
+            {
+                "item_name": "grid_supervisor",
+                "user_id": "5522",
+                "created_at": "1617088019",
+                "roleName": "网格监督员"
+            },
+            {
+                "item_name": "grid_verifier",
+                "user_id": "5522",
+                "created_at": "1617088019",
+                "roleName": "网格核查员"
+            },
+            {
+                "item_name": "supervise_handle_member",
+                "user_id": "5522",
+                "created_at": "1617088019",
+                "roleName": "督办员"
+            }
+        ],
+        "rights": [
+            "EventManagementMenu",
+            "EventReportMenu",
+            "EventRegisterMenu",
+            "QueryManagementMenu",
+            "EventQueryMenu",
+            "EventReportViewPage",
+            "EventReportEventReportBtn",
+            "EventRegisterViewPage",
+            "EventRegisterAcceptBtn",
+            "EventRegisterSaveBtn",
+            "EventRegisterCreateBtn",
+            "EventRegisterNotCreateBtn",
+            "EventQueryViewPage",
+            "AutomaticRegisterViewPage",
+            "AutomaticDispatchViewPage",
+            "AutomaticDealViewPage",
+            "AutomaticCheckViewPage",
+            "AutomaticCloseViewPage",
+            "EventReportCheckDispatch",
+            "EventDispatchMenu",
+            "EventDealMenu",
+            "EventCheckMenu",
+            "EventCloseMenu",
+            "EventDispatchViewPage",
+            "EventDispatchDesignatedDisposerBtn",
+            "EventDispatchChargebackBtn",
+            "EventDealViewPage",
+            "EventDealChargebackBtn",
+            "EventDealHandleBtn",
+            "EventCheckViewPage",
+            "EventCheckDesignatedCheckerBtn",
+            "EventCloseViewPage",
+            "EventCloseCloseBtn",
+            "EventCloseNoCloseBtn",
+            "AutomaticRegisterCreateBtn",
+            "AutomaticRegisterEditBtn",
+            "AutomaticRegisterDelBtn",
+            "AutomaticDispatchCreateBtn",
+            "AutomaticDispatchEditBtn",
+            "AutomaticDispatchDelBtn",
+            "AutomaticDealCreateBtn",
+            "AutomaticDealEditBtn",
+            "AutomaticDealDelBtn",
+            "AutomaticCheckCreateBtn",
+            "AutomaticCheckEditBtn",
+            "AutomaticCheckDelBtn",
+            "AutomaticCloseCreateBtn",
+            "AutomaticCloseEditBtn",
+            "AutomaticCloseDelBtn",
+            "DepartmentDataRight",
+            "ManagerRight",
+            "SelfManagementMenu",
+            "SelfEventReportMenu",
+            "SelfEventConfimtMenu",
+            "SelfEventDealMenu",
+            "SelfEventCheckMenu",
+            "EventManageControlMenu",
+            "RequestUpMenu",
+            "SelfEventDelayMenu",
+            "APPEventDealMenu",
+            "APPDashboardMenu",
+            "APPEventMapMenu",
+            "APPLoginMenu",
+            "APP",
+            "EventDealHandleSelect",
+            "APPEventUploadMenu",
+            "APPEventCheckMenu",
+            "APPSelfReportedMenu",
+            "APPInformationCheckMenu",
+            "EventCheckCheckSelect",
+            "EventConfrimSelect",
+            "EventSupervisionMenu",
+            "EventSupervisionViewPage",
+            "EventSupervisionReturnOrderCheckBtn",
+            "EventSupervisionDelayCheckBtn",
+            "EventSupervisionBtn",
+            "SystemConfiguration"
+        ],
+        "level": 3,
+        "selectLevel": 3,
+        "avatar": "",
+        "identity": "",
+        "phone": ""
+    }
+}
+2021-03-30 15:07:00,237  - INFO - 
+断言条件：
+resp.status_code == 200
+2021-03-30 15:07:00,250  - INFO - 
+提取数据列表：
+无
+2021-03-30 15:07:00,251  - INFO - 
+
+
+
+2021-03-30 15:07:00,265  - INFO - 
+-----------------test_case/get_class/test_get_class.py::d5_accept-case-----------------
+2021-03-30 15:07:00,267  - INFO - 
+请求地址：
+http://172.16.25.62:80/api/web/case/accept-case?id=mock-1616985940&token=aef941ee7f28bb22ac357abcff5d30cf&currentStatus=23
+2021-03-30 15:07:00,269  - INFO - 
+请求头：
+{
+    "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryizUYY1QPAYHDOQCf"
+}
+2021-03-30 15:07:00,344  - INFO - 
+-----------------test_case/get_class/test_get_class.py::d6_call-complete-----------------
+2021-03-30 15:07:00,346  - INFO - 
+请求地址：
+http://172.16.25.62:80/api/web/case/call-complete?id=mock-1616985940&token=aef941ee7f28bb22ac357abcff5d30cf&currentStatus=11
+2021-03-30 15:07:00,348  - INFO - 
+请求头：
+{
+    "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundarywHnXUAKrA0t0PHQu"
+}
+2021-03-30 15:07:00,400  - INFO - 
+-----------------test_case/get_class/test_get_class.py::d7_call-check-----------------
+2021-03-30 15:07:00,403  - INFO - 
+请求地址：
+http://172.16.25.62:80/api/web/case/call-check?id=mock-1616985940&token=91aea8d852b6c93fca014918664424a4&currentStatus=16
+2021-03-30 15:07:00,405  - INFO - 
+请求头：
+{
+    "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryATf16hwGxyWsNttf"
+}
+2021-03-30 15:07:00,481  - INFO - 
+-----------------test_case/get_class/test_get_class.py::d8_call-passed-----------------
+2021-03-30 15:07:00,483  - INFO - 
+请求地址：
+http://172.16.25.62:80/api/web/case/call-passed?id=mock-1616985940&token=91aea8d852b6c93fca014918664424a4&currentStatus=5
+2021-03-30 15:07:00,485  - INFO - 
+请求头：
+{
+    "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundarys0TwVz8KTMytfeXn"
+}
+2021-03-30 15:14:56,579  - INFO - 
+-----------------test_case/get_class/test_get_class.py::d1_login-----------------
+2021-03-30 15:14:56,580  - INFO - 
+请求地址：
+http://172.16.25.62:80/api/app/users/login
+2021-03-30 15:14:56,582  - INFO - 
+请求头：
+{
+    "Content-Type": "application/json;charset=UTF-8"
+}
+2021-03-30 15:14:56,584  - INFO - 
+请求正文：
+{
+    "username": "Jane_cm_qj",
+    "password": "abc@123456"
+}
+2021-03-30 15:14:58,246  - INFO - 
+响应报文：
+{
+    "code": 200,
+    "data": {
+        "token": "cc705bd70d86f2b170a46877f08528a4",
+        "username": "Jane_cm_qj",
+        "id": 5524,
+        "name": "Jane_长宁区管理",
+        "district": "崇明区",
+        "grid_center": "",
+        "grid_centerName": [],
+        "department": [],
+        "departmentName": [],
+        "street": "0",
+        "street_name": "",
+        "d_name": "",
+        "district_id": 2,
+        "role": [
+            {
+                "item_name": "district_manager",
+                "user_id": "5524",
+                "created_at": "1617088497",
+                "roleName": "区级管理员"
+            },
+            {
+                "item_name": "supervise_handle_member",
+                "user_id": "5524",
+                "created_at": "1617088497",
+                "roleName": "督办员"
+            }
+        ],
+        "rights": [
+            "EventManagementMenu",
+            "EventReportMenu",
+            "EventRegisterMenu",
+            "EventDispatchMenu",
+            "EventDealMenu",
+            "EventCheckMenu",
+            "EventCloseMenu",
+            "QueryManagementMenu",
+            "EventQueryMenu",
+            "AutomationManagementMenu",
+            "AutomaticDiscoveryRuleMenu",
+            "AutomaticRegisterRuleMenu",
+            "AutomaticDispatchRuleMenu",
+            "AutomaticDealRuleMenu",
+            "AutomaticCheckRuleMenu",
+            "AutomaticCloseRuleMenu",
+            "EventReportViewPage",
+            "EventReportEventReportBtn",
+            "EventRegisterViewPage",
+            "EventRegisterAcceptBtn",
+            "EventRegisterSaveBtn",
+            "EventRegisterCreateBtn",
+            "EventRegisterNotCreateBtn",
+            "EventDispatchViewPage",
+            "EventDispatchDesignatedDisposerBtn",
+            "EventDispatchChargebackBtn",
+            "EventDealViewPage",
+            "EventDealChargebackBtn",
+            "EventDealHandleBtn",
+            "EventCheckViewPage",
+            "EventCheckDesignatedCheckerBtn",
+            "EventCloseViewPage",
+            "EventCloseCloseBtn",
+            "EventCloseNoCloseBtn",
+            "EventQueryViewPage",
+            "AutomaticRegisterViewPage",
+            "AutomaticRegisterCreateBtn",
+            "AutomaticRegisterEditBtn",
+            "AutomaticRegisterDelBtn",
+            "AutomaticDispatchViewPage",
+            "AutomaticDispatchCreateBtn",
+            "AutomaticDispatchEditBtn",
+            "AutomaticDispatchDelBtn",
+            "AutomaticDealViewPage",
+            "AutomaticDealCreateBtn",
+            "AutomaticDealEditBtn",
+            "AutomaticDealDelBtn",
+            "AutomaticCheckViewPage",
+            "AutomaticCheckCreateBtn",
+            "AutomaticCheckEditBtn",
+            "AutomaticCheckDelBtn",
+            "AutomaticCloseViewPage",
+            "AutomaticCloseCreateBtn",
+            "AutomaticCloseEditBtn",
+            "AutomaticCloseDelBtn",
+            "APPEventUploadMenu",
+            "APPEventDealMenu",
+            "APPEventCheckMenu",
+            "APPDashboardMenu",
+            "APPEventMapMenu",
+            "APPSelfReportedMenu",
+            "APPLoginMenu",
+            "APPInformationCheckMenu",
+            "APP",
+            "EventUploadMenu",
+            "EventDealMenu",
+            "EventCheckMenu",
+            "DashboardMenu",
+            "EventMapMenu",
+            "EventReportCheckDispatch",
+            "StatisticsMenu",
+            "EventStatisticsMenu",
+            "DistrictDataRight",
+            "ManagerRight",
+            "SelfManagementMenu",
+            "SelfEventReportMenu",
+            "SelfEventConfimtMenu",
+            "SelfEventDealMenu",
+            "SelfEventCheckMenu",
+            "EventManageControlMenu",
+            "MemberWorkingCalcuMenu",
+            "SystemConfiguration",
+            "RequestUpMenu",
+            "SelfEventDelayMenu",
+            "EventSupervisionMenu",
+            "EventSupervisionViewPage",
+            "EventSupervisionReturnOrderCheckBtn",
+            "EventSupervisionDelayCheckBtn",
+            "EventSupervisionBtn"
+        ],
+        "level": 1,
+        "selectLevel": 1,
+        "avatar": "",
+        "identity": "",
+        "phone": ""
+    }
+}
+2021-03-30 15:14:58,254  - INFO - 
+断言条件：
+resp.status_code == 200
+2021-03-30 15:14:58,436  - INFO - 
+-----------------test_case/get_class/test_get_class.py::d2_report-list-----------------
+2021-03-30 15:14:58,445  - INFO - 
+请求地址：
+http://172.16.25.62:80/api/web/events/report-list?start=1609171200&end=1617033599&pageSize=10&page=1&sort=event_time&sort_type=0&isResolve=0&token=+pub_data[token]
+2021-03-30 15:14:58,447  - INFO - 
+请求头：
+{}
+2021-03-30 15:14:58,592  - INFO - 
+响应报文：
+{
+    "msg": "无效的token或token已过期",
+    "code": 401
+}
+2021-03-30 15:14:58,599  - INFO - 
+断言条件：
+resp.status_code == 200
+2021-03-30 15:14:58,606  - INFO - 
+提取数据列表：
+无
+2021-03-30 15:14:58,607  - INFO - 
+
+
+
+2021-03-30 15:14:58,619  - INFO - 
+-----------------test_case/get_class/test_get_class.py::d3_mock-1616985940-----------------
+2021-03-30 15:14:58,622  - INFO - 
+请求地址：
+http://172.16.25.62:80/api/web/events/mock-1616985940?token=303d3bc2262b172e6fcc5bb9ba84902e&id=mock-1616985940&currentStatus=1
+2021-03-30 15:14:58,625  - INFO - 
+请求头：
+{
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+2021-03-30 15:14:58,694  - INFO - 
+-----------------test_case/get_class/test_get_class.py::d4_login-----------------
+2021-03-30 15:14:58,697  - INFO - 
+请求地址：
+http://172.16.25.62:80/api/app/users/login
+2021-03-30 15:14:58,699  - INFO - 
+请求头：
+{
+    "Content-Type": "application/json;charset=UTF-8"
+}
+2021-03-30 15:14:58,701  - INFO - 
+请求正文：
+{
+    "username": "Jane",
+    "password": "abc@123456"
+}
+2021-03-30 15:15:00,163  - INFO - 
+响应报文：
+{
+    "code": 200,
+    "data": {
+        "token": "959623e04dc62a6be3e56e9139d3774f",
+        "username": "Jane",
+        "id": 5522,
+        "name": "崇明建管委",
+        "district": "崇明区",
+        "grid_center": "",
+        "grid_centerName": [],
+        "department": [
+            2003
+        ],
+        "departmentName": [
+            "建管委"
+        ],
+        "street": "0",
+        "street_name": "",
+        "d_name": "",
+        "district_id": 2,
+        "role": [
+            {
+                "item_name": "acceptance_member",
+                "user_id": "5522",
+                "created_at": "1617088499",
+                "roleName": "上报受理员"
+            },
+            {
+                "item_name": "department_manager",
+                "user_id": "5522",
+                "created_at": "1617088499",
+                "roleName": "部门管理员"
+            },
+            {
+                "item_name": "grid_dealer",
+                "user_id": "5522",
+                "created_at": "1617088499",
+                "roleName": "网格处置员"
+            },
+            {
+                "item_name": "grid_supervisor",
+                "user_id": "5522",
+                "created_at": "1617088499",
+                "roleName": "网格监督员"
+            },
+            {
+                "item_name": "grid_verifier",
+                "user_id": "5522",
+                "created_at": "1617088499",
+                "roleName": "网格核查员"
+            },
+            {
+                "item_name": "supervise_handle_member",
+                "user_id": "5522",
+                "created_at": "1617088499",
+                "roleName": "督办员"
+            }
+        ],
+        "rights": [
+            "EventManagementMenu",
+            "EventReportMenu",
+            "EventRegisterMenu",
+            "QueryManagementMenu",
+            "EventQueryMenu",
+            "EventReportViewPage",
+            "EventReportEventReportBtn",
+            "EventRegisterViewPage",
+            "EventRegisterAcceptBtn",
+            "EventRegisterSaveBtn",
+            "EventRegisterCreateBtn",
+            "EventRegisterNotCreateBtn",
+            "EventQueryViewPage",
+            "AutomaticRegisterViewPage",
+            "AutomaticDispatchViewPage",
+            "AutomaticDealViewPage",
+            "AutomaticCheckViewPage",
+            "AutomaticCloseViewPage",
+            "EventReportCheckDispatch",
+            "EventDispatchMenu",
+            "EventDealMenu",
+            "EventCheckMenu",
+            "EventCloseMenu",
+            "EventDispatchViewPage",
+            "EventDispatchDesignatedDisposerBtn",
+            "EventDispatchChargebackBtn",
+            "EventDealViewPage",
+            "EventDealChargebackBtn",
+            "EventDealHandleBtn",
+            "EventCheckViewPage",
+            "EventCheckDesignatedCheckerBtn",
+            "EventCloseViewPage",
+            "EventCloseCloseBtn",
+            "EventCloseNoCloseBtn",
+            "AutomaticRegisterCreateBtn",
+            "AutomaticRegisterEditBtn",
+            "AutomaticRegisterDelBtn",
+            "AutomaticDispatchCreateBtn",
+            "AutomaticDispatchEditBtn",
+            "AutomaticDispatchDelBtn",
+            "AutomaticDealCreateBtn",
+            "AutomaticDealEditBtn",
+            "AutomaticDealDelBtn",
+            "AutomaticCheckCreateBtn",
+            "AutomaticCheckEditBtn",
+            "AutomaticCheckDelBtn",
+            "AutomaticCloseCreateBtn",
+            "AutomaticCloseEditBtn",
+            "AutomaticCloseDelBtn",
+            "DepartmentDataRight",
+            "ManagerRight",
+            "SelfManagementMenu",
+            "SelfEventReportMenu",
+            "SelfEventConfimtMenu",
+            "SelfEventDealMenu",
+            "SelfEventCheckMenu",
+            "EventManageControlMenu",
+            "RequestUpMenu",
+            "SelfEventDelayMenu",
+            "APPEventDealMenu",
+            "APPDashboardMenu",
+            "APPEventMapMenu",
+            "APPLoginMenu",
+            "APP",
+            "EventDealHandleSelect",
+            "APPEventUploadMenu",
+            "APPEventCheckMenu",
+            "APPSelfReportedMenu",
+            "APPInformationCheckMenu",
+            "EventCheckCheckSelect",
+            "EventConfrimSelect",
+            "EventSupervisionMenu",
+            "EventSupervisionViewPage",
+            "EventSupervisionReturnOrderCheckBtn",
+            "EventSupervisionDelayCheckBtn",
+            "EventSupervisionBtn",
+            "SystemConfiguration"
+        ],
+        "level": 3,
+        "selectLevel": 3,
+        "avatar": "",
+        "identity": "",
+        "phone": ""
+    }
+}
+2021-03-30 15:15:00,172  - INFO - 
+断言条件：
+resp.status_code == 200
+2021-03-30 15:15:00,175  - INFO - 
+提取数据列表：
+无
+2021-03-30 15:15:00,176  - INFO - 
+
+
+
+2021-03-30 15:15:00,189  - INFO - 
+-----------------test_case/get_class/test_get_class.py::d5_accept-case-----------------
+2021-03-30 15:15:00,201  - INFO - 
+请求地址：
+http://172.16.25.62:80/api/web/case/accept-case?id=mock-1616985940&token=aef941ee7f28bb22ac357abcff5d30cf&currentStatus=23
+2021-03-30 15:15:00,203  - INFO - 
+请求头：
+{
+    "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryizUYY1QPAYHDOQCf"
+}
+2021-03-30 15:15:00,269  - INFO - 
+-----------------test_case/get_class/test_get_class.py::d6_call-complete-----------------
+2021-03-30 15:15:00,270  - INFO - 
+请求地址：
+http://172.16.25.62:80/api/web/case/call-complete?id=mock-1616985940&token=aef941ee7f28bb22ac357abcff5d30cf&currentStatus=11
+2021-03-30 15:15:00,272  - INFO - 
+请求头：
+{
+    "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundarywHnXUAKrA0t0PHQu"
+}
+2021-03-30 15:15:00,320  - INFO - 
+-----------------test_case/get_class/test_get_class.py::d7_call-check-----------------
+2021-03-30 15:15:00,322  - INFO - 
+请求地址：
+http://172.16.25.62:80/api/web/case/call-check?id=mock-1616985940&token=91aea8d852b6c93fca014918664424a4&currentStatus=16
+2021-03-30 15:15:00,323  - INFO - 
+请求头：
+{
+    "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundaryATf16hwGxyWsNttf"
+}
+2021-03-30 15:15:00,378  - INFO - 
+-----------------test_case/get_class/test_get_class.py::d8_call-passed-----------------
+2021-03-30 15:15:00,380  - INFO - 
+请求地址：
+http://172.16.25.62:80/api/web/case/call-passed?id=mock-1616985940&token=91aea8d852b6c93fca014918664424a4&currentStatus=5
+2021-03-30 15:15:00,381  - INFO - 
+请求头：
+{
+    "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundarys0TwVz8KTMytfeXn"
+}

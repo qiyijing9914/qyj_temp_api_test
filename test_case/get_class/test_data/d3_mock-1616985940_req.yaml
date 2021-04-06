@@ -1,0 +1,16 @@
+method: PATCH
+protocal: http
+ip: 172.16.25.62
+port: 80
+uri: /api/web/events/mock-1616985940
+query:
+  token: 303d3bc2262b172e6fcc5bb9ba84902e
+  id: mock-1616985940
+  currentStatus: '1'
+encoding: UTF-8
+header:
+  Content-Type: application/x-www-form-urlencoded
+cookies: {}
+body: '{"data":{"status":"12","desc":"同意受理！","withNext":2,"params":{"id":"mock-1616985940","meta_id":2003,"deps":[],"deal":"2021-04-06
+  16:41:59","desc":"请及时处理！","form_info":"{\"formType\":1,\"meta_name\":[\"建管委\"],\"depsName\":[],\"deal\":\"2021-04-06
+  16:41:59\",\"dispatchDesc\":\"请及时处理！\",\"desc\":\"同意受理！\"}"}}}'

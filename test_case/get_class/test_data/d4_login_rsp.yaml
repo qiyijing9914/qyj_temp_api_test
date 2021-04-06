@@ -1,0 +1,136 @@
+encoding: UTF-8
+status_code: '200'
+status_desc: OK
+header:
+  Content-Type: application/json;charset=utf-8
+  Access-Control-Allow-Headers: '*'
+  Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, OPTIONS
+  Swoft-Devtool-Version: 1.0.0
+  X-Powered-By: Swoft
+cookies: {}
+body:
+  code: 200
+  data:
+    token: aef941ee7f28bb22ac357abcff5d30cf
+    username: Jane
+    id: 5522
+    name: 崇明建管委
+    district: 崇明区
+    grid_center: ''
+    grid_centerName: []
+    department:
+    - 2003
+    departmentName:
+    - 建管委
+    street: '0'
+    street_name: ''
+    d_name: ''
+    district_id: 2
+    role:
+    - item_name: acceptance_member
+      user_id: '5522'
+      created_at: '1617007808'
+      roleName: 上报受理员
+    - item_name: department_manager
+      user_id: '5522'
+      created_at: '1617007808'
+      roleName: 部门管理员
+    - item_name: grid_dealer
+      user_id: '5522'
+      created_at: '1617007808'
+      roleName: 网格处置员
+    - item_name: grid_supervisor
+      user_id: '5522'
+      created_at: '1617007808'
+      roleName: 网格监督员
+    - item_name: grid_verifier
+      user_id: '5522'
+      created_at: '1617007808'
+      roleName: 网格核查员
+    - item_name: supervise_handle_member
+      user_id: '5522'
+      created_at: '1617007808'
+      roleName: 督办员
+    rights:
+    - EventManagementMenu
+    - EventReportMenu
+    - EventRegisterMenu
+    - QueryManagementMenu
+    - EventQueryMenu
+    - EventReportViewPage
+    - EventReportEventReportBtn
+    - EventRegisterViewPage
+    - EventRegisterAcceptBtn
+    - EventRegisterSaveBtn
+    - EventRegisterCreateBtn
+    - EventRegisterNotCreateBtn
+    - EventQueryViewPage
+    - AutomaticRegisterViewPage
+    - AutomaticDispatchViewPage
+    - AutomaticDealViewPage
+    - AutomaticCheckViewPage
+    - AutomaticCloseViewPage
+    - EventReportCheckDispatch
+    - EventDispatchMenu
+    - EventDealMenu
+    - EventCheckMenu
+    - EventCloseMenu
+    - EventDispatchViewPage
+    - EventDispatchDesignatedDisposerBtn
+    - EventDispatchChargebackBtn
+    - EventDealViewPage
+    - EventDealChargebackBtn
+    - EventDealHandleBtn
+    - EventCheckViewPage
+    - EventCheckDesignatedCheckerBtn
+    - EventCloseViewPage
+    - EventCloseCloseBtn
+    - EventCloseNoCloseBtn
+    - AutomaticRegisterCreateBtn
+    - AutomaticRegisterEditBtn
+    - AutomaticRegisterDelBtn
+    - AutomaticDispatchCreateBtn
+    - AutomaticDispatchEditBtn
+    - AutomaticDispatchDelBtn
+    - AutomaticDealCreateBtn
+    - AutomaticDealEditBtn
+    - AutomaticDealDelBtn
+    - AutomaticCheckCreateBtn
+    - AutomaticCheckEditBtn
+    - AutomaticCheckDelBtn
+    - AutomaticCloseCreateBtn
+    - AutomaticCloseEditBtn
+    - AutomaticCloseDelBtn
+    - DepartmentDataRight
+    - ManagerRight
+    - SelfManagementMenu
+    - SelfEventReportMenu
+    - SelfEventConfimtMenu
+    - SelfEventDealMenu
+    - SelfEventCheckMenu
+    - EventManageControlMenu
+    - RequestUpMenu
+    - SelfEventDelayMenu
+    - APPEventDealMenu
+    - APPDashboardMenu
+    - APPEventMapMenu
+    - APPLoginMenu
+    - APP
+    - EventDealHandleSelect
+    - APPEventUploadMenu
+    - APPEventCheckMenu
+    - APPSelfReportedMenu
+    - APPInformationCheckMenu
+    - EventCheckCheckSelect
+    - EventConfrimSelect
+    - EventSupervisionMenu
+    - EventSupervisionViewPage
+    - EventSupervisionReturnOrderCheckBtn
+    - EventSupervisionDelayCheckBtn
+    - EventSupervisionBtn
+    - SystemConfiguration
+    level: 3
+    selectLevel: 3
+    avatar: ''
+    identity: ''
+    phone: ''

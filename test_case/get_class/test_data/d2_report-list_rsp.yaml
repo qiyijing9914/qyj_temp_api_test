@@ -1,0 +1,336 @@
+encoding: UTF-8
+status_code: '200'
+status_desc: OK
+header:
+  Content-Type: application/json;charset=utf-8
+  Access-Control-Allow-Headers: '*'
+  Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, OPTIONS
+  Swoft-Devtool-Version: 1.0.0
+  X-Powered-By: Swoft
+cookies: {}
+body:
+  code: 200
+  data:
+    items:
+    - code: '2103290200000007'
+      eventId: mock-1616985940
+      eventTime: '1616985940'
+      confirmDispatch:
+      dealDispatch: '0'
+      checkDispatch:
+      selfReport: '0'
+      cuser: '0'
+      status: 待受理
+      stepStatus: 发现
+      periodStatus: '1'
+      district: '2'
+      street: '0'
+      orderDistrict: '0'
+      orderStreet: '0'
+      orderDepartment: '0'
+      checkStreet:
+      dealUser: '0'
+      dealUsername: ''
+      checkUser: '0'
+      checkUsername: ''
+      confirmUser:
+      confirmUsername:
+      name: 通信
+      address: 民主街近嘉定老街
+      eventType1: ''
+      eventType2: ''
+      eventType3: ''
+      coopId:
+      coopDepartment:
+      extInfo:
+      rawId:
+      discoverType: 被动发现
+      source: '11'
+      gridCenter: '02249'
+      description: 案件描述
+      cuserName: 自动
+      allDeadlineStatus: '0'
+      hasDispatch:
+      checkDistrict:
+      loginUser: '5524'
+      orderLevel: 0
+      eventLevel: 1
+      districtName: 崇明区
+      streetName: ''
+      orderDistrictName: ''
+      orderStreetName: ''
+      orderDepartmentName: ''
+      unityName: '-'
+      isLock:
+        status: 0
+      hasOuterUrge: false
+      hasInnerUrge: false
+      hasBack: false
+      hasDelay: false
+      hasFile: false
+      redLine: '2021-04-09 20:10:00'
+      orangeLine: '2021-04-08 03:53:08'
+      yellowLine: '2021-04-02 15:27:50'
+      left: 8天3时33分
+      over: 0
+      allLine: '2021-04-09 20:10:00'
+      dealOrangeLine: '2021-04-08 03:53:08'
+      dealYellowLine: '2021-04-02 15:27:50'
+      dealLeft: 8天3时33分
+      dealOver: 0
+      hotlineInfo:
+        id: 320
+        serialNumber: mock-1616985940
+        sShoulidw: '66'
+        dJiebaosj: '2021-03-29 10:45:40'
+        dPaidansj: '2021-02-25 14:12:39'
+        sFanyingr: 赵女士
+        sLianxidh: '13564661234'
+        sFanyingqm: 嘉定
+        sFashengdz: 民主街近嘉定老街
+        sFanyinglb: 街面秩序
+        sFanyingnr: 无证停车场
+        sShoulibz: （交通委反馈：根据嘉定区《关于规范和加强嘉定区道路停车场管理工作的实施方案》（见附件）各街镇负责辖区内道路停车场的管理，建议转嘉定区政府咨询镇街道处置。）1月27日11:51反映人在民主街近嘉定老街停车（苏NF600D）其停车只为了询问收费人员如何去古猗园的路线，可其并无停车意愿。可谁知现场收费人员在其停车后就给其开了一张停车收费单，可其点其停了1分钟就走了。后其开车至古猗园附近停车费，被告知其之前有停车欠费。而民主街上的收费人员称如其欠费，对此有影响。反映人对此影响有疑问，故望尽快处理并回复。
+        iShifoubm: '0'
+        solvingEndtime: '2021-04-09 20:10:00'
+        status: '0'
+        originCreateTime: '2021-01-27T06:20:00.015Z'
+        sendKafkaTime: '2021-01-27T06:20:05.007Z'
+        createTime: '2021-03-03 09:53:38'
+      refStreet: 新乡村
+      hotlineBackAllow: 1
+      backStreetCheckAllow: false
+      deadline: 普通
+    - code: '2103250200000001'
+      eventId: mock-1616638103
+      eventTime: '1616638103'
+      confirmDispatch:
+      dealDispatch: '0'
+      checkDispatch:
+      selfReport: '0'
+      cuser: '0'
+      status: 待受理
+      stepStatus: 发现
+      periodStatus: '1'
+      district: '2'
+      street: '0'
+      orderDistrict: '0'
+      orderStreet: '0'
+      orderDepartment: '0'
+      checkStreet:
+      dealUser: '0'
+      dealUsername: ''
+      checkUser: '0'
+      checkUsername: ''
+      confirmUser:
+      confirmUsername:
+      name: 通信
+      address: 民主街近嘉定老街
+      eventType1: ''
+      eventType2: ''
+      eventType3: ''
+      coopId:
+      coopDepartment:
+      extInfo:
+      rawId:
+      discoverType: 被动发现
+      source: '11'
+      gridCenter: '02249'
+      description: 案件描述
+      cuserName: 自动
+      allDeadlineStatus: '3'
+      hasDispatch:
+      checkDistrict:
+      loginUser: '5524'
+      orderLevel: 0
+      eventLevel: 1
+      districtName: 崇明区
+      streetName: ''
+      orderDistrictName: ''
+      orderStreetName: ''
+      orderDepartmentName: ''
+      unityName: '-'
+      isLock:
+        status: 0
+      hasOuterUrge: false
+      hasInnerUrge: false
+      hasBack: false
+      hasDelay: false
+      hasFile: false
+      redLine: '2021-03-27 20:10:00'
+      orangeLine: '2021-03-26 13:21:40'
+      yellowLine: '2021-03-26 03:09:11'
+      left: 0天0时0分
+      over: 1天20时26分
+      allLine: '2021-03-27 20:10:00'
+      dealOrangeLine: '2021-03-26 13:21:40'
+      dealYellowLine: '2021-03-26 03:09:11'
+      dealLeft: 0天0时0分
+      dealOver: 1天20时26分
+      hotlineInfo:
+        id: 301
+        serialNumber: mock-1616638103
+        sShoulidw: '66'
+        dJiebaosj: '2021-03-25 10:08:23'
+        dPaidansj: '2021-02-25 14:12:39'
+        sFanyingr: 赵女士
+        sLianxidh: '13564661234'
+        sFanyingqm: 嘉定
+        sFashengdz: 民主街近嘉定老街
+        sFanyinglb: 街面秩序
+        sFanyingnr: 无证停车场
+        sShoulibz: （交通委反馈：根据嘉定区《关于规范和加强嘉定区道路停车场管理工作的实施方案》（见附件）各街镇负责辖区内道路停车场的管理，建议转嘉定区政府咨询镇街道处置。）1月27日11:51反映人在民主街近嘉定老街停车（苏NF600D）其停车只为了询问收费人员如何去古猗园的路线，可其并无停车意愿。可谁知现场收费人员在其停车后就给其开了一张停车收费单，可其点其停了1分钟就走了。后其开车至古猗园附近停车费，被告知其之前有停车欠费。而民主街上的收费人员称如其欠费，对此有影响。反映人对此影响有疑问，故望尽快处理并回复。
+        iShifoubm: '0'
+        solvingEndtime: '2021-03-27 20:10:00'
+        status: '0'
+        originCreateTime: '2021-01-27T06:20:00.015Z'
+        sendKafkaTime: '2021-01-27T06:20:05.007Z'
+        createTime: '2021-03-03 09:53:38'
+      refStreet: 新乡村
+      hotlineBackAllow: 1
+      backStreetCheckAllow: false
+      deadline: 已超期
+    - code: '2101150200000053'
+      eventId: '20201108020293'
+      eventTime: '1610676578'
+      confirmDispatch:
+      dealDispatch: '0'
+      checkDispatch:
+      selfReport: '0'
+      cuser: '1'
+      status: 待受理
+      stepStatus: 发现
+      periodStatus: '1'
+      district: '2'
+      street: '0'
+      orderDistrict: '0'
+      orderStreet: '0'
+      orderDepartment: '0'
+      checkStreet:
+      dealUser: '0'
+      dealUsername: ''
+      checkUser: '0'
+      checkUsername: ''
+      confirmUser:
+      confirmUsername:
+      name: 拆迁安置
+      address: 崇明区新村乡
+      eventType1: 建设交通类
+      eventType2: 住房保障
+      eventType3: 征收管理
+      coopId:
+      coopDepartment:
+      extInfo:
+      rawId:
+      discoverType: 被动发现
+      source: '2'
+      gridCenter: '02134'
+      description: 市民来电反映：市民在新村乡内私房（市民不愿告知具体地址，表示都是这一现象）被拆除没有给到补贴，市民表示崇明区别的乡内私房被拆都会给到补贴，诉求：希望管理部门核实给到解释。（需回复）
+      cuserName: superadmin
+      allDeadlineStatus: '2'
+      hasDispatch:
+      checkDistrict:
+      loginUser: '5524'
+      orderLevel: 0
+      eventLevel: 1
+      districtName: 崇明区
+      streetName: ''
+      orderDistrictName: ''
+      orderStreetName: ''
+      orderDepartmentName: ''
+      unityName: '-'
+      isLock:
+        status: 0
+      hasOuterUrge: false
+      hasInnerUrge: false
+      hasBack: false
+      hasDelay: false
+      hasFile: true
+      redLine: '2021-03-15 14:41:55'
+      orangeLine: '2021-03-03 18:35:27'
+      yellowLine: '2021-02-10 00:25:46'
+      left: 0天0时0分
+      over: 14天1时54分
+      allLine: '2021-03-15 14:41:55'
+      dealOrangeLine: '2021-03-03 18:35:27'
+      dealYellowLine: '2021-02-10 00:25:46'
+      dealLeft: 0天0时0分
+      dealOver: 14天1时54分
+      isHidden:
+      assignFlag:
+      wpType:
+      hotlineInfo:
+        id: 10789
+        wpid: '20201108020293'
+        callDatetime: '2021-01-15 10:09:38'
+        sendDatetime: '2021-01-15 10:09:38'
+        requirement: 请处理。
+        phoneno: '-'
+        wpType: 求助类
+        class1: 建设交通类
+        class2: 住房保障
+        class3: 征收管理
+        class4: 拆迁安置
+        summary: 市民来电反映：市民在新村乡内私房（市民不愿告知具体地址，表示都是这一现象）被拆除没有给到补贴，市民表示崇明区别的乡内私房被拆都会给到补贴，诉求：希望管理部门核实给到解释。（需回复）
+        relAddress: 崇明区新村乡
+        relDistrict: 崇明区
+        relPhoneno: '18964612841'
+        supervision: '0'
+        deptLevel2: 崇明区人民政府
+        priority: '1'
+        acceptdepartment: '264'
+        acceptflag: '0'
+        limitTime: '2021-01-25 10:09:38'
+        wpSource: '7'
+        assignFlag: '0'
+        backCount: '0'
+        note: '-'
+        callnum: '18964612841'
+        mobile: '-'
+        cardtype: '-'
+        cardnum: '-'
+        customerName: '-'
+        address: '-'
+        gender: 男
+        district: 本市
+        relName: 黄先生
+        callbackFlag: N
+        duLimit: '-'
+        wpCustomertype: '1'
+        wpServicetype: '1'
+        email: '-'
+        ishidden: '0'
+        ispublic: '0'
+        isrepeat: '0'
+        rewpid: '-'
+        appealUpload: '-'
+        appealContent: ''
+        wpTitle: '-'
+        backDept1: '-'
+        backTime1: '-'
+        backReason1: ''
+        backDept2: '-'
+        backTime2: '-'
+        backReason2: ''
+        backDept3: '-'
+        backTime3: '-'
+        backReason3: ''
+        bak1: '-'
+        bak2: '-'
+        ctime: '2021-01-15 20:47:38'
+        cuser: 0
+        mtime: '2021-01-15 20:47:38'
+        muser: 0
+        status: 1
+        eventId: '20201108020293'
+      priority: '1'
+      callbackFlag: N
+      refStreet: ''
+      isRepeat: false
+      hotlineBackAllow: 0
+      backStreetCheckAllow: false
+      deadline: 已超期
+    _meta:
+      page: 1
+      pageSize: 10
+      count: 3

@@ -1,0 +1,312 @@
+POST http://172.16.25.62/api/app/users/login HTTP/1.1
+Host: 172.16.25.62
+Connection: keep-alive
+Content-Length: 49
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://172.16.25.62
+Referer: http://172.16.25.62/web/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"username":"Jane_cm_qj","password":"abc@123456"}
+HTTP/1.1 200 OK
+Server: nginx/1.10.3
+Date: Mon, 29 Mar 2021 08:36:45 GMT
+Content-Type: application/json;charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With, Content-Type, Accept, Origin, Authorization
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, OPTIONS
+Swoft-Devtool-Version: 1.0.0
+X-Powered-By: Swoft
+Access-Control-Allow-Headers: *
+Content-Length: 2620
+
+{"code":200,"data":{"token":"303d3bc2262b172e6fcc5bb9ba84902e","username":"Jane_cm_qj","id":5524,"name":"Jane_长宁区管理","district":"崇明区","grid_center":"","grid_centerName":[],"department":[],"departmentName":[],"street":"0","street_name":"","d_name":"","district_id":2,"role":[{"item_name":"district_manager","user_id":"5524","created_at":"1617007179","roleName":"区级管理员"},{"item_name":"supervise_handle_member","user_id":"5524","created_at":"1617007179","roleName":"督办员"}],"rights":["EventManagementMenu","EventReportMenu","EventRegisterMenu","EventDispatchMenu","EventDealMenu","EventCheckMenu","EventCloseMenu","QueryManagementMenu","EventQueryMenu","AutomationManagementMenu","AutomaticDiscoveryRuleMenu","AutomaticRegisterRuleMenu","AutomaticDispatchRuleMenu","AutomaticDealRuleMenu","AutomaticCheckRuleMenu","AutomaticCloseRuleMenu","EventReportViewPage","EventReportEventReportBtn","EventRegisterViewPage","EventRegisterAcceptBtn","EventRegisterSaveBtn","EventRegisterCreateBtn","EventRegisterNotCreateBtn","EventDispatchViewPage","EventDispatchDesignatedDisposerBtn","EventDispatchChargebackBtn","EventDealViewPage","EventDealChargebackBtn","EventDealHandleBtn","EventCheckViewPage","EventCheckDesignatedCheckerBtn","EventCloseViewPage","EventCloseCloseBtn","EventCloseNoCloseBtn","EventQueryViewPage","AutomaticRegisterViewPage","AutomaticRegisterCreateBtn","AutomaticRegisterEditBtn","AutomaticRegisterDelBtn","AutomaticDispatchViewPage","AutomaticDispatchCreateBtn","AutomaticDispatchEditBtn","AutomaticDispatchDelBtn","AutomaticDealViewPage","AutomaticDealCreateBtn","AutomaticDealEditBtn","AutomaticDealDelBtn","AutomaticCheckViewPage","AutomaticCheckCreateBtn","AutomaticCheckEditBtn","AutomaticCheckDelBtn","AutomaticCloseViewPage","AutomaticCloseCreateBtn","AutomaticCloseEditBtn","AutomaticCloseDelBtn","APPEventUploadMenu","APPEventDealMenu","APPEventCheckMenu","APPDashboardMenu","APPEventMapMenu","APPSelfReportedMenu","APPLoginMenu","APPInformationCheckMenu","APP","EventUploadMenu","EventDealMenu","EventCheckMenu","DashboardMenu","EventMapMenu","EventReportCheckDispatch","StatisticsMenu","EventStatisticsMenu","DistrictDataRight","ManagerRight","SelfManagementMenu","SelfEventReportMenu","SelfEventConfimtMenu","SelfEventDealMenu","SelfEventCheckMenu","EventManageControlMenu","MemberWorkingCalcuMenu","SystemConfiguration","RequestUpMenu","SelfEventDelayMenu","EventSupervisionMenu","EventSupervisionViewPage","EventSupervisionReturnOrderCheckBtn","EventSupervisionDelayCheckBtn","EventSupervisionBtn"],"level":1,"selectLevel":1,"avatar":"","identity":"","phone":""}}
+
+------------------------------------------------------------------
+
+GET http://172.16.25.62/api/web/events/report-list?start=1609171200&end=1617033599&pageSize=10&page=1&sort=event_time&sort_type=0&isResolve=0&token=303d3bc2262b172e6fcc5bb9ba84902e HTTP/1.1
+Host: 172.16.25.62
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36
+Referer: http://172.16.25.62/web/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.10.3
+Date: Mon, 29 Mar 2021 08:36:49 GMT
+Content-Type: application/json;charset=utf-8
+Content-Length: 8900
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With, Content-Type, Accept, Origin, Authorization
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, OPTIONS
+Swoft-Devtool-Version: 1.0.0
+X-Powered-By: Swoft
+Access-Control-Allow-Headers: *
+
+{"code":200,"data":{"items":[{"code":"2103290200000007","eventId":"mock-1616985940","eventTime":"1616985940","confirmDispatch":null,"dealDispatch":"0","checkDispatch":null,"selfReport":"0","cuser":"0","status":"待受理","stepStatus":"发现","periodStatus":"1","district":"2","street":"0","orderDistrict":"0","orderStreet":"0","orderDepartment":"0","checkStreet":null,"dealUser":"0","dealUsername":"","checkUser":"0","checkUsername":"","confirmUser":null,"confirmUsername":null,"name":"通信","address":"民主街近嘉定老街","eventType1":"","eventType2":"","eventType3":"","coopId":null,"coopDepartment":null,"extInfo":null,"rawId":null,"discoverType":"被动发现","source":"11","gridCenter":"02249","description":"案件描述","cuserName":"自动","allDeadlineStatus":"0","hasDispatch":null,"checkDistrict":null,"loginUser":"5524","orderLevel":0,"eventLevel":1,"districtName":"崇明区","streetName":"","orderDistrictName":"","orderStreetName":"","orderDepartmentName":"","unityName":"-","isLock":{"status":0},"hasOuterUrge":false,"hasInnerUrge":false,"hasBack":false,"hasDelay":false,"hasFile":false,"redLine":"2021-04-09 20:10:00","orangeLine":"2021-04-08 03:53:08","yellowLine":"2021-04-02 15:27:50","left":"8天3时33分","over":0,"allLine":"2021-04-09 20:10:00","dealOrangeLine":"2021-04-08 03:53:08","dealYellowLine":"2021-04-02 15:27:50","dealLeft":"8天3时33分","dealOver":0,"hotlineInfo":{"id":320,"serialNumber":"mock-1616985940","sShoulidw":"66","dJiebaosj":"2021-03-29 10:45:40","dPaidansj":"2021-02-25 14:12:39","sFanyingr":"赵女士","sLianxidh":"13564661234","sFanyingqm":"嘉定","sFashengdz":"民主街近嘉定老街","sFanyinglb":"街面秩序","sFanyingnr":"无证停车场","sShoulibz":"（交通委反馈：根据嘉定区《关于规范和加强嘉定区道路停车场管理工作的实施方案》（见附件）各街镇负责辖区内道路停车场的管理，建议转嘉定区政府咨询镇街道处置。）1月27日11:51反映人在民主街近嘉定老街停车（苏NF600D）其停车只为了询问收费人员如何去古猗园的路线，可其并无停车意愿。可谁知现场收费人员在其停车后就给其开了一张停车收费单，可其点其停了1分钟就走了。后其开车至古猗园附近停车费，被告知其之前有停车欠费。而民主街上的收费人员称如其欠费，对此有影响。反映人对此影响有疑问，故望尽快处理并回复。","iShifoubm":"0","solvingEndtime":"2021-04-09 20:10:00","status":"0","originCreateTime":"2021-01-27T06:20:00.015Z","sendKafkaTime":"2021-01-27T06:20:05.007Z","createTime":"2021-03-03 09:53:38"},"refStreet":"新乡村","hotlineBackAllow":1,"backStreetCheckAllow":false,"deadline":"普通"},{"code":"2103250200000001","eventId":"mock-1616638103","eventTime":"1616638103","confirmDispatch":null,"dealDispatch":"0","checkDispatch":null,"selfReport":"0","cuser":"0","status":"待受理","stepStatus":"发现","periodStatus":"1","district":"2","street":"0","orderDistrict":"0","orderStreet":"0","orderDepartment":"0","checkStreet":null,"dealUser":"0","dealUsername":"","checkUser":"0","checkUsername":"","confirmUser":null,"confirmUsername":null,"name":"通信","address":"民主街近嘉定老街","eventType1":"","eventType2":"","eventType3":"","coopId":null,"coopDepartment":null,"extInfo":null,"rawId":null,"discoverType":"被动发现","source":"11","gridCenter":"02249","description":"案件描述","cuserName":"自动","allDeadlineStatus":"3","hasDispatch":null,"checkDistrict":null,"loginUser":"5524","orderLevel":0,"eventLevel":1,"districtName":"崇明区","streetName":"","orderDistrictName":"","orderStreetName":"","orderDepartmentName":"","unityName":"-","isLock":{"status":0},"hasOuterUrge":false,"hasInnerUrge":false,"hasBack":false,"hasDelay":false,"hasFile":false,"redLine":"2021-03-27 20:10:00","orangeLine":"2021-03-26 13:21:40","yellowLine":"2021-03-26 03:09:11","left":"0天0时0分","over":"1天20时26分","allLine":"2021-03-27 20:10:00","dealOrangeLine":"2021-03-26 13:21:40","dealYellowLine":"2021-03-26 03:09:11","dealLeft":"0天0时0分","dealOver":"1天20时26分","hotlineInfo":{"id":301,"serialNumber":"mock-1616638103","sShoulidw":"66","dJiebaosj":"2021-03-25 10:08:23","dPaidansj":"2021-02-25 14:12:39","sFanyingr":"赵女士","sLianxidh":"13564661234","sFanyingqm":"嘉定","sFashengdz":"民主街近嘉定老街","sFanyinglb":"街面秩序","sFanyingnr":"无证停车场","sShoulibz":"（交通委反馈：根据嘉定区《关于规范和加强嘉定区道路停车场管理工作的实施方案》（见附件）各街镇负责辖区内道路停车场的管理，建议转嘉定区政府咨询镇街道处置。）1月27日11:51反映人在民主街近嘉定老街停车（苏NF600D）其停车只为了询问收费人员如何去古猗园的路线，可其并无停车意愿。可谁知现场收费人员在其停车后就给其开了一张停车收费单，可其点其停了1分钟就走了。后其开车至古猗园附近停车费，被告知其之前有停车欠费。而民主街上的收费人员称如其欠费，对此有影响。反映人对此影响有疑问，故望尽快处理并回复。","iShifoubm":"0","solvingEndtime":"2021-03-27 20:10:00","status":"0","originCreateTime":"2021-01-27T06:20:00.015Z","sendKafkaTime":"2021-01-27T06:20:05.007Z","createTime":"2021-03-03 09:53:38"},"refStreet":"新乡村","hotlineBackAllow":1,"backStreetCheckAllow":false,"deadline":"已超期"},{"code":"2101150200000053","eventId":"20201108020293","eventTime":"1610676578","confirmDispatch":null,"dealDispatch":"0","checkDispatch":null,"selfReport":"0","cuser":"1","status":"待受理","stepStatus":"发现","periodStatus":"1","district":"2","street":"0","orderDistrict":"0","orderStreet":"0","orderDepartment":"0","checkStreet":null,"dealUser":"0","dealUsername":"","checkUser":"0","checkUsername":"","confirmUser":null,"confirmUsername":null,"name":"拆迁安置","address":"崇明区新村乡","eventType1":"建设交通类","eventType2":"住房保障","eventType3":"征收管理","coopId":null,"coopDepartment":null,"extInfo":null,"rawId":null,"discoverType":"被动发现","source":"2","gridCenter":"02134","description":"市民来电反映：市民在新村乡内私房（市民不愿告知具体地址，表示都是这一现象）被拆除没有给到补贴，市民表示崇明区别的乡内私房被拆都会给到补贴，诉求：希望管理部门核实给到解释。（需回复）","cuserName":"superadmin","allDeadlineStatus":"2","hasDispatch":null,"checkDistrict":null,"loginUser":"5524","orderLevel":0,"eventLevel":1,"districtName":"崇明区","streetName":"","orderDistrictName":"","orderStreetName":"","orderDepartmentName":"","unityName":"-","isLock":{"status":0},"hasOuterUrge":false,"hasInnerUrge":false,"hasBack":false,"hasDelay":false,"hasFile":true,"redLine":"2021-03-15 14:41:55","orangeLine":"2021-03-03 18:35:27","yellowLine":"2021-02-10 00:25:46","left":"0天0时0分","over":"14天1时54分","allLine":"2021-03-15 14:41:55","dealOrangeLine":"2021-03-03 18:35:27","dealYellowLine":"2021-02-10 00:25:46","dealLeft":"0天0时0分","dealOver":"14天1时54分","isHidden":null,"assignFlag":null,"wpType":null,"hotlineInfo":{"id":10789,"wpid":"20201108020293","callDatetime":"2021-01-15 10:09:38","sendDatetime":"2021-01-15 10:09:38","requirement":"请处理。","phoneno":"-","wpType":"求助类","class1":"建设交通类","class2":"住房保障","class3":"征收管理","class4":"拆迁安置","summary":"市民来电反映：市民在新村乡内私房（市民不愿告知具体地址，表示都是这一现象）被拆除没有给到补贴，市民表示崇明区别的乡内私房被拆都会给到补贴，诉求：希望管理部门核实给到解释。（需回复）","relAddress":"崇明区新村乡","relDistrict":"崇明区","relPhoneno":"18964612841","supervision":"0","deptLevel2":"崇明区人民政府","priority":"1","acceptdepartment":"264","acceptflag":"0","limitTime":"2021-01-25 10:09:38","wpSource":"7","assignFlag":"0","backCount":"0","note":"-","callnum":"18964612841","mobile":"-","cardtype":"-","cardnum":"-","customerName":"-","address":"-","gender":"男","district":"本市","relName":"黄先生","callbackFlag":"N","duLimit":"-","wpCustomertype":"1","wpServicetype":"1","email":"-","ishidden":"0","ispublic":"0","isrepeat":"0","rewpid":"-","appealUpload":"-","appealContent":"","wpTitle":"-","backDept1":"-","backTime1":"-","backReason1":"","backDept2":"-","backTime2":"-","backReason2":"","backDept3":"-","backTime3":"-","backReason3":"","bak1":"-","bak2":"-","ctime":"2021-01-15 20:47:38","cuser":0,"mtime":"2021-01-15 20:47:38","muser":0,"status":1,"eventId":"20201108020293"},"priority":"1","callbackFlag":"N","refStreet":"","isRepeat":false,"hotlineBackAllow":0,"backStreetCheckAllow":false,"deadline":"已超期"}],"_meta":{"page":1,"pageSize":10,"count":3}}}
+
+------------------------------------------------------------------
+
+PATCH http://172.16.25.62/api/web/events/mock-1616985940?token=303d3bc2262b172e6fcc5bb9ba84902e&id=mock-1616985940&currentStatus=1 HTTP/1.1
+Host: 172.16.25.62
+Connection: keep-alive
+Content-Length: 357
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://172.16.25.62
+Referer: http://172.16.25.62/web/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"data":{"status":"12","desc":"同意受理！","withNext":2,"params":{"id":"mock-1616985940","meta_id":2003,"deps":[],"deal":"2021-04-06 16:41:59","desc":"请及时处理！","form_info":"{\"formType\":1,\"meta_name\":[\"建管委\"],\"depsName\":[],\"deal\":\"2021-04-06 16:41:59\",\"dispatchDesc\":\"请及时处理！\",\"desc\":\"同意受理！\"}"}}}
+HTTP/1.1 200 OK
+Server: nginx/1.10.3
+Date: Mon, 29 Mar 2021 08:42:20 GMT
+Content-Type: application/json;charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With, Content-Type, Accept, Origin, Authorization
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, OPTIONS
+Swoft-Devtool-Version: 1.0.0
+X-Powered-By: Swoft
+Access-Control-Allow-Headers: *
+Content-Length: 3702
+
+{"code":200,"data":{"eventId":"mock-1616985940","code":"2103290200000007","name":"通信","eventType1":"","eventType2":"","eventType3":"","message":"案件描述","lng":"0","lat":"0","latCd":"31.004950183024","lngCd":"-39260.18160817","latGd":"0","lngGd":"0","address":"民主街近嘉定老街","district":2,"areaType":0,"discoverType":2,"source":11,"gridCenter":202249,"eventTime":1616985940,"status":13,"createdAt":"2021-03-29 10:45:40","updatedAt":"2021-03-29 16:42:20","eventInfo":"{\"processedDataUuid\":\"mock-1616985940\",\"handleChannel\":4,\"type\":1,\"userMessage\":{\"sex\":\"\",\"mobie\":\"18916612147\",\"name\":\"\\u5973\\u58eb\\uff08\\u4fe1\\u606f\\u4fdd\\u5bc6\\uff09\",\"email\":\"\"},\"reportContent\":{\"handleChannel\":4,\"city\":\"\\u4e0a\\u6d77\\u5e02\",\"cityId\":\"3101\",\"source\":11,\"eventSource\":2,\"address\":\"\\u6c11\\u4e3b\\u8857\\u8fd1\\u5609\\u5b9a\\u8001\\u8857\",\"eventName\":\"\\u901a\\u4fe1\",\"lngCd\":\"-39260.18160817\",\"latCd\":\"31.004950183024334\",\"grid_center\":\"02249\",\"eventDescription\":\"\\u6848\\u4ef6\\u63cf\\u8ff0\",\"refStreet\":\"\\u65b0\\u4e61\\u6751\",\"districtName\":\"\\u5d07\\u660e\\u533a\",\"district\":\"2\",\"streetName\":\"\\u67ab\\u6797\\u8def\\u8857\\u9053\",\"street\":0,\"eventTime\":\"2021-03-29 10:45:40\",\"origin\":\"{\\\"address\\\":\\\"\\u9752\\u6d66\\u533a\\u7ae0\\u7ec3\\u5858\\u8def\\uff08\\u7ec3\\u5858\\u5de5\\u4e1a\\u56ed\\u5185\\uff09\\\",\\\"area_district\\\":{\\\"areaCategory\\\":\\\"\\u533a\\\",\\\"areaName\\\":\\\"\\u9752\\u6d66\\u533a\\\",\\\"rawIdentity\\\":\\\"18\\\"},\\\"coordx\\\":\\\"-39260.18160817\\\",\\\"coordy\\\":\\\"-25484.62319332\\\",\\\"description\\\":\\\"\\u3010\\u5982\\u9700\\u9000\\u5355\\u8bf72\\u4e2a\\u5de5\\u4f5c\\u65e5\\u5185\\u4ee5\\u7ed3\\u6848\\u5f62\\u5f0f\\u56de\\u590d\\uff0c\\u6709\\u4efb\\u4f55\\u7591\\u95ee\\u8bf7\\u62e8\\u625354524500*1070\\u3011\\uff0812345\\u63a5\\u62a5\\u65f6\\u95f4\\uff1a2021-03-02 21:03:41\\uff0c12345\\u622a\\u6b62\\u65f6\\u95f4\\uff1a2021-03-23 20:55:54\\uff09\\u5e02\\u6c11\\u6765\\u7535\\u53cd\\u6620\\uff0c\\u4e0a\\u8ff0\\u5730\\u5740\\u5e02\\u653f\\u9053\\u8def\\u8def\\u706f\\u6ca1\\u5f00\\uff0c\\u975e\\u673a\\u52a8\\u8f66\\u4e5f\\u4f1a\\u5728\\u673a\\u52a8\\u8f66\\u5230\\u4e0a\\u884c\\u9a76\\uff0c\\u5e02\\u6c11\\u770b\\u4e0d\\u6e05\\uff0c\\u5bb9\\u6613\\u53d1\\u751f\\u4e8b\\u6545\\uff0c\\u8bc9\\u6c42\\uff1a\\u8981\\u6c42\\u5f00\\u542f\\u8be5\\u8def\\u6bb5\\u8def\\u706f\\u3002\\uff08\\u5e02\\u6c11\\u8981\\u6c42\\u4fe1\\u606f\\u4fdd\\u5bc6\\uff0c\\u9700\\u56de\\u590d\\uff09\\\",\\\"district_eventType\\\":[\\\"\\u516c\\u5171\\u8bbe\\u65bd\\\",\\\"\\u8def\\u706f\\\",\\\"\\u8def\\u706f\\\"],\\\"eventDiscoverType\\\":\\\"\\u88ab\\u52a8\\u53d1\\u73b0\\\",\\\"eventID\\\":\\\"2103117150\\\",\\\"eventLevel\\\":\\\"\\u4e00\\u822c\\u62a5\\u8b66\\\",\\\"eventName\\\":\\\"\\u8def\\u706f\\\",\\\"eventSourceType\\\":\\\"12319\\\",\\\"event_source\\\":\\\"12319\\\",\\\"exevt_status\\\":\\\"\\u53d1\\u73b0\\\",\\\"gridCode\\\":\\\"\\\",\\\"infoTypeName\\\":\\\"\\u90e8\\u4ef6\\\",\\\"location\\\":{\\\"latitude\\\":\\\"31.004950183024334\\\",\\\"longitude\\\":\\\"121.05603069129118\\\",\\\"system\\\":\\\"wgs84\\\"},\\\"openTS\\\":1614739298,\\\"original_status\\\":\\\"\\u53d1\\u73b0\\\",\\\"pTscene\\\":\\\"12319\\\",\\\"primeID\\\":\\\"2103117150\\\",\\\"town\\\":{\\\"areaCategory\\\":\\\"\\u8857\\u9053\\\",\\\"areaName\\\":\\\"\\\",\\\"rawIdentity\\\":\\\"\\\"},\\\"uuid\\\":\\\"2103117150\\\"}\",\"sourceScenes\":[],\"scenes\":[],\"sourceVideos\":[],\"videos\":[]}}","auditorId":0,"confirmDesc":"","handleChannel":4,"type":1,"degree":2,"cuser":0,"community":"","districtCode":"","streetCode":"","departmentCode":"","gridCode":""}}
+
+------------------------------------------------------------------
+
+POST http://172.16.25.62/api/app/users/login HTTP/1.1
+Host: 172.16.25.62
+Connection: keep-alive
+Content-Length: 43
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://172.16.25.62
+Referer: http://172.16.25.62/web/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"username":"Jane","password":"abc@123456"}
+HTTP/1.1 200 OK
+Server: nginx/1.10.3
+Date: Mon, 29 Mar 2021 08:47:14 GMT
+Content-Type: application/json;charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With, Content-Type, Accept, Origin, Authorization
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, OPTIONS
+Swoft-Devtool-Version: 1.0.0
+X-Powered-By: Swoft
+Access-Control-Allow-Headers: *
+Content-Length: 2777
+
+{"code":200,"data":{"token":"aef941ee7f28bb22ac357abcff5d30cf","username":"Jane","id":5522,"name":"崇明建管委","district":"崇明区","grid_center":"","grid_centerName":[],"department":[2003],"departmentName":["建管委"],"street":"0","street_name":"","d_name":"","district_id":2,"role":[{"item_name":"acceptance_member","user_id":"5522","created_at":"1617007808","roleName":"上报受理员"},{"item_name":"department_manager","user_id":"5522","created_at":"1617007808","roleName":"部门管理员"},{"item_name":"grid_dealer","user_id":"5522","created_at":"1617007808","roleName":"网格处置员"},{"item_name":"grid_supervisor","user_id":"5522","created_at":"1617007808","roleName":"网格监督员"},{"item_name":"grid_verifier","user_id":"5522","created_at":"1617007808","roleName":"网格核查员"},{"item_name":"supervise_handle_member","user_id":"5522","created_at":"1617007808","roleName":"督办员"}],"rights":["EventManagementMenu","EventReportMenu","EventRegisterMenu","QueryManagementMenu","EventQueryMenu","EventReportViewPage","EventReportEventReportBtn","EventRegisterViewPage","EventRegisterAcceptBtn","EventRegisterSaveBtn","EventRegisterCreateBtn","EventRegisterNotCreateBtn","EventQueryViewPage","AutomaticRegisterViewPage","AutomaticDispatchViewPage","AutomaticDealViewPage","AutomaticCheckViewPage","AutomaticCloseViewPage","EventReportCheckDispatch","EventDispatchMenu","EventDealMenu","EventCheckMenu","EventCloseMenu","EventDispatchViewPage","EventDispatchDesignatedDisposerBtn","EventDispatchChargebackBtn","EventDealViewPage","EventDealChargebackBtn","EventDealHandleBtn","EventCheckViewPage","EventCheckDesignatedCheckerBtn","EventCloseViewPage","EventCloseCloseBtn","EventCloseNoCloseBtn","AutomaticRegisterCreateBtn","AutomaticRegisterEditBtn","AutomaticRegisterDelBtn","AutomaticDispatchCreateBtn","AutomaticDispatchEditBtn","AutomaticDispatchDelBtn","AutomaticDealCreateBtn","AutomaticDealEditBtn","AutomaticDealDelBtn","AutomaticCheckCreateBtn","AutomaticCheckEditBtn","AutomaticCheckDelBtn","AutomaticCloseCreateBtn","AutomaticCloseEditBtn","AutomaticCloseDelBtn","DepartmentDataRight","ManagerRight","SelfManagementMenu","SelfEventReportMenu","SelfEventConfimtMenu","SelfEventDealMenu","SelfEventCheckMenu","EventManageControlMenu","RequestUpMenu","SelfEventDelayMenu","APPEventDealMenu","APPDashboardMenu","APPEventMapMenu","APPLoginMenu","APP","EventDealHandleSelect","APPEventUploadMenu","APPEventCheckMenu","APPSelfReportedMenu","APPInformationCheckMenu","EventCheckCheckSelect","EventConfrimSelect","EventSupervisionMenu","EventSupervisionViewPage","EventSupervisionReturnOrderCheckBtn","EventSupervisionDelayCheckBtn","EventSupervisionBtn","SystemConfiguration"],"level":3,"selectLevel":3,"avatar":"","identity":"","phone":""}}
+
+------------------------------------------------------------------
+
+POST http://172.16.25.62/api/web/case/accept-case?id=mock-1616985940&token=aef941ee7f28bb22ac357abcff5d30cf&currentStatus=23 HTTP/1.1
+Host: 172.16.25.62
+Connection: keep-alive
+Content-Length: 248
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryizUYY1QPAYHDOQCf
+Origin: http://172.16.25.62
+Referer: http://172.16.25.62/web/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+------WebKitFormBoundaryizUYY1QPAYHDOQCf
+Content-Disposition: form-data; name="id"
+
+mock-1616985940
+------WebKitFormBoundaryizUYY1QPAYHDOQCf
+Content-Disposition: form-data; name="desc"
+
+接单。
+------WebKitFormBoundaryizUYY1QPAYHDOQCf--
+
+HTTP/1.1 200 OK
+Server: nginx/1.10.3
+Date: Mon, 29 Mar 2021 08:47:54 GMT
+Content-Type: application/json;charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With, Content-Type, Accept, Origin, Authorization
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, OPTIONS
+Swoft-Devtool-Version: 1.0.0
+X-Powered-By: Swoft
+Access-Control-Allow-Headers: *
+Content-Length: 24
+
+{"code":200,"data":true}
+
+------------------------------------------------------------------
+
+POST http://172.16.25.62/api/web/case/call-complete?id=mock-1616985940&token=aef941ee7f28bb22ac357abcff5d30cf&currentStatus=11 HTTP/1.1
+Host: 172.16.25.62
+Connection: keep-alive
+Content-Length: 315
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywHnXUAKrA0t0PHQu
+Origin: http://172.16.25.62
+Referer: http://172.16.25.62/web/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+------WebKitFormBoundarywHnXUAKrA0t0PHQu
+Content-Disposition: form-data; name="extInfo"
+
+{"returns":"实际解决","desc":"呜呜呜呜","result":"","formType":5}
+------WebKitFormBoundarywHnXUAKrA0t0PHQu
+Content-Disposition: form-data; name="id"
+
+mock-1616985940
+------WebKitFormBoundarywHnXUAKrA0t0PHQu--
+
+HTTP/1.1 200 OK
+Server: nginx/1.10.3
+Date: Mon, 29 Mar 2021 08:50:31 GMT
+Content-Type: application/json;charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With, Content-Type, Accept, Origin, Authorization
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, OPTIONS
+Swoft-Devtool-Version: 1.0.0
+X-Powered-By: Swoft
+Access-Control-Allow-Headers: *
+Content-Length: 24
+
+{"code":200,"data":true}
+
+------------------------------------------------------------------
+
+POST http://172.16.25.62/api/web/case/call-check?id=mock-1616985940&token=91aea8d852b6c93fca014918664424a4&currentStatus=16 HTTP/1.1
+Host: 172.16.25.62
+Connection: keep-alive
+Content-Length: 492
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryATf16hwGxyWsNttf
+Origin: http://172.16.25.62
+Referer: http://172.16.25.62/web/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+------WebKitFormBoundaryATf16hwGxyWsNttf
+Content-Disposition: form-data; name="id"
+
+mock-1616985940
+------WebKitFormBoundaryATf16hwGxyWsNttf
+Content-Disposition: form-data; name="desc"
+
+嗯嗯嗯
+------WebKitFormBoundaryATf16hwGxyWsNttf
+Content-Disposition: form-data; name="skip"
+
+1
+------WebKitFormBoundaryATf16hwGxyWsNttf
+Content-Disposition: form-data; name="extInfo"
+
+{"formType":6,"returns":"","desc":"嗯嗯嗯","result":""}
+------WebKitFormBoundaryATf16hwGxyWsNttf--
+
+HTTP/1.1 200 OK
+Server: nginx/1.10.3
+Date: Mon, 29 Mar 2021 08:56:27 GMT
+Content-Type: application/json;charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With, Content-Type, Accept, Origin, Authorization
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, OPTIONS
+Swoft-Devtool-Version: 1.0.0
+X-Powered-By: Swoft
+Access-Control-Allow-Headers: *
+Content-Length: 24
+
+{"code":200,"data":true}
+
+------------------------------------------------------------------
+
+POST http://172.16.25.62/api/web/case/call-passed?id=mock-1616985940&token=91aea8d852b6c93fca014918664424a4&currentStatus=5 HTTP/1.1
+Host: 172.16.25.62
+Connection: keep-alive
+Content-Length: 476
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarys0TwVz8KTMytfeXn
+Origin: http://172.16.25.62
+Referer: http://172.16.25.62/web/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+------WebKitFormBoundarys0TwVz8KTMytfeXn
+Content-Disposition: form-data; name="id"
+
+665191
+------WebKitFormBoundarys0TwVz8KTMytfeXn
+Content-Disposition: form-data; name="desc"
+
+1212
+------WebKitFormBoundarys0TwVz8KTMytfeXn
+Content-Disposition: form-data; name="result"
+
+1
+------WebKitFormBoundarys0TwVz8KTMytfeXn
+Content-Disposition: form-data; name="extInfo"
+
+{"returns":"","desc":"1212","result":"1","formType":7}
+------WebKitFormBoundarys0TwVz8KTMytfeXn--
+
+HTTP/1.1 200 OK
+Server: nginx/1.10.3
+Date: Mon, 29 Mar 2021 08:57:57 GMT
+Content-Type: application/json;charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With, Content-Type, Accept, Origin, Authorization
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, OPTIONS
+Swoft-Devtool-Version: 1.0.0
+X-Powered-By: Swoft
+Access-Control-Allow-Headers: *
+Content-Length: 24
+
+{"code":200,"data":true}
+
+------------------------------------------------------------------
+

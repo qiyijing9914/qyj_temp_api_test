@@ -1,0 +1,18 @@
+method: GET
+protocal: http
+ip: 172.16.25.62
+port: 80
+uri: /api/web/events/report-list
+query:
+  start: '1609171200'
+  end: '1617033599'
+  pageSize: '10'
+  page: '1'
+  sort: event_time
+  sort_type: '0'
+  isResolve: '0'
+  token: 303d3bc2262b172e6fcc5bb9ba84902e
+encoding: UTF-8
+header: {}
+cookies: {}
+body: ''

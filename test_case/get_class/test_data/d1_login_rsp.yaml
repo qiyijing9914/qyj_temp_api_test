@@ -1,0 +1,130 @@
+encoding: UTF-8
+status_code: '200'
+status_desc: OK
+header:
+  Content-Type: application/json;charset=utf-8
+  Access-Control-Allow-Headers: '*'
+  Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, OPTIONS
+  Swoft-Devtool-Version: 1.0.0
+  X-Powered-By: Swoft
+cookies: {}
+body:
+  code: 200
+  data:
+    token: 303d3bc2262b172e6fcc5bb9ba84902e
+    username: Jane_cm_qj
+    id: 5524
+    name: Jane_长宁区管理
+    district: 崇明区
+    grid_center: ''
+    grid_centerName: []
+    department: []
+    departmentName: []
+    street: '0'
+    street_name: ''
+    d_name: ''
+    district_id: 2
+    role:
+    - item_name: district_manager
+      user_id: '5524'
+      created_at: '1617007179'
+      roleName: 区级管理员
+    - item_name: supervise_handle_member
+      user_id: '5524'
+      created_at: '1617007179'
+      roleName: 督办员
+    rights:
+    - EventManagementMenu
+    - EventReportMenu
+    - EventRegisterMenu
+    - EventDispatchMenu
+    - EventDealMenu
+    - EventCheckMenu
+    - EventCloseMenu
+    - QueryManagementMenu
+    - EventQueryMenu
+    - AutomationManagementMenu
+    - AutomaticDiscoveryRuleMenu
+    - AutomaticRegisterRuleMenu
+    - AutomaticDispatchRuleMenu
+    - AutomaticDealRuleMenu
+    - AutomaticCheckRuleMenu
+    - AutomaticCloseRuleMenu
+    - EventReportViewPage
+    - EventReportEventReportBtn
+    - EventRegisterViewPage
+    - EventRegisterAcceptBtn
+    - EventRegisterSaveBtn
+    - EventRegisterCreateBtn
+    - EventRegisterNotCreateBtn
+    - EventDispatchViewPage
+    - EventDispatchDesignatedDisposerBtn
+    - EventDispatchChargebackBtn
+    - EventDealViewPage
+    - EventDealChargebackBtn
+    - EventDealHandleBtn
+    - EventCheckViewPage
+    - EventCheckDesignatedCheckerBtn
+    - EventCloseViewPage
+    - EventCloseCloseBtn
+    - EventCloseNoCloseBtn
+    - EventQueryViewPage
+    - AutomaticRegisterViewPage
+    - AutomaticRegisterCreateBtn
+    - AutomaticRegisterEditBtn
+    - AutomaticRegisterDelBtn
+    - AutomaticDispatchViewPage
+    - AutomaticDispatchCreateBtn
+    - AutomaticDispatchEditBtn
+    - AutomaticDispatchDelBtn
+    - AutomaticDealViewPage
+    - AutomaticDealCreateBtn
+    - AutomaticDealEditBtn
+    - AutomaticDealDelBtn
+    - AutomaticCheckViewPage
+    - AutomaticCheckCreateBtn
+    - AutomaticCheckEditBtn
+    - AutomaticCheckDelBtn
+    - AutomaticCloseViewPage
+    - AutomaticCloseCreateBtn
+    - AutomaticCloseEditBtn
+    - AutomaticCloseDelBtn
+    - APPEventUploadMenu
+    - APPEventDealMenu
+    - APPEventCheckMenu
+    - APPDashboardMenu
+    - APPEventMapMenu
+    - APPSelfReportedMenu
+    - APPLoginMenu
+    - APPInformationCheckMenu
+    - APP
+    - EventUploadMenu
+    - EventDealMenu
+    - EventCheckMenu
+    - DashboardMenu
+    - EventMapMenu
+    - EventReportCheckDispatch
+    - StatisticsMenu
+    - EventStatisticsMenu
+    - DistrictDataRight
+    - ManagerRight
+    - SelfManagementMenu
+    - SelfEventReportMenu
+    - SelfEventConfimtMenu
+    - SelfEventDealMenu
+    - SelfEventCheckMenu
+    - EventManageControlMenu
+    - MemberWorkingCalcuMenu
+    - SystemConfiguration
+    - RequestUpMenu
+    - SelfEventDelayMenu
+    - EventSupervisionMenu
+    - EventSupervisionViewPage
+    - EventSupervisionReturnOrderCheckBtn
+    - EventSupervisionDelayCheckBtn
+    - EventSupervisionBtn
+    level: 1
+    selectLevel: 1
+    avatar: ''
+    identity: ''
+    phone: ''

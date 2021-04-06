@@ -1,0 +1,50 @@
+encoding: UTF-8
+status_code: '200'
+status_desc: OK
+header:
+  Content-Type: application/json;charset=utf-8
+  Access-Control-Allow-Headers: '*'
+  Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, OPTIONS
+  Swoft-Devtool-Version: 1.0.0
+  X-Powered-By: Swoft
+cookies: {}
+body:
+  code: 200
+  data:
+    eventId: mock-1616985940
+    code: '2103290200000007'
+    name: 通信
+    eventType1: ''
+    eventType2: ''
+    eventType3: ''
+    message: 案件描述
+    lng: '0'
+    lat: '0'
+    latCd: '31.004950183024'
+    lngCd: '-39260.18160817'
+    latGd: '0'
+    lngGd: '0'
+    address: 民主街近嘉定老街
+    district: 2
+    areaType: 0
+    discoverType: 2
+    source: 11
+    gridCenter: 202249
+    eventTime: 1616985940
+    status: 13
+    createdAt: '2021-03-29 10:45:40'
+    updatedAt: '2021-03-29 16:42:20'
+    eventInfo: '{"processedDataUuid":"mock-1616985940","handleChannel":4,"type":1,"userMessage":{"sex":"","mobie":"18916612147","name":"\u5973\u58eb\uff08\u4fe1\u606f\u4fdd\u5bc6\uff09","email":""},"reportContent":{"handleChannel":4,"city":"\u4e0a\u6d77\u5e02","cityId":"3101","source":11,"eventSource":2,"address":"\u6c11\u4e3b\u8857\u8fd1\u5609\u5b9a\u8001\u8857","eventName":"\u901a\u4fe1","lngCd":"-39260.18160817","latCd":"31.004950183024334","grid_center":"02249","eventDescription":"\u6848\u4ef6\u63cf\u8ff0","refStreet":"\u65b0\u4e61\u6751","districtName":"\u5d07\u660e\u533a","district":"2","streetName":"\u67ab\u6797\u8def\u8857\u9053","street":0,"eventTime":"2021-03-29
+      10:45:40","origin":"{\"address\":\"\u9752\u6d66\u533a\u7ae0\u7ec3\u5858\u8def\uff08\u7ec3\u5858\u5de5\u4e1a\u56ed\u5185\uff09\",\"area_district\":{\"areaCategory\":\"\u533a\",\"areaName\":\"\u9752\u6d66\u533a\",\"rawIdentity\":\"18\"},\"coordx\":\"-39260.18160817\",\"coordy\":\"-25484.62319332\",\"description\":\"\u3010\u5982\u9700\u9000\u5355\u8bf72\u4e2a\u5de5\u4f5c\u65e5\u5185\u4ee5\u7ed3\u6848\u5f62\u5f0f\u56de\u590d\uff0c\u6709\u4efb\u4f55\u7591\u95ee\u8bf7\u62e8\u625354524500*1070\u3011\uff0812345\u63a5\u62a5\u65f6\u95f4\uff1a2021-03-02
+      21:03:41\uff0c12345\u622a\u6b62\u65f6\u95f4\uff1a2021-03-23 20:55:54\uff09\u5e02\u6c11\u6765\u7535\u53cd\u6620\uff0c\u4e0a\u8ff0\u5730\u5740\u5e02\u653f\u9053\u8def\u8def\u706f\u6ca1\u5f00\uff0c\u975e\u673a\u52a8\u8f66\u4e5f\u4f1a\u5728\u673a\u52a8\u8f66\u5230\u4e0a\u884c\u9a76\uff0c\u5e02\u6c11\u770b\u4e0d\u6e05\uff0c\u5bb9\u6613\u53d1\u751f\u4e8b\u6545\uff0c\u8bc9\u6c42\uff1a\u8981\u6c42\u5f00\u542f\u8be5\u8def\u6bb5\u8def\u706f\u3002\uff08\u5e02\u6c11\u8981\u6c42\u4fe1\u606f\u4fdd\u5bc6\uff0c\u9700\u56de\u590d\uff09\",\"district_eventType\":[\"\u516c\u5171\u8bbe\u65bd\",\"\u8def\u706f\",\"\u8def\u706f\"],\"eventDiscoverType\":\"\u88ab\u52a8\u53d1\u73b0\",\"eventID\":\"2103117150\",\"eventLevel\":\"\u4e00\u822c\u62a5\u8b66\",\"eventName\":\"\u8def\u706f\",\"eventSourceType\":\"12319\",\"event_source\":\"12319\",\"exevt_status\":\"\u53d1\u73b0\",\"gridCode\":\"\",\"infoTypeName\":\"\u90e8\u4ef6\",\"location\":{\"latitude\":\"31.004950183024334\",\"longitude\":\"121.05603069129118\",\"system\":\"wgs84\"},\"openTS\":1614739298,\"original_status\":\"\u53d1\u73b0\",\"pTscene\":\"12319\",\"primeID\":\"2103117150\",\"town\":{\"areaCategory\":\"\u8857\u9053\",\"areaName\":\"\",\"rawIdentity\":\"\"},\"uuid\":\"2103117150\"}","sourceScenes":[],"scenes":[],"sourceVideos":[],"videos":[]}}'
+    auditorId: 0
+    confirmDesc: ''
+    handleChannel: 4
+    type: 1
+    degree: 2
+    cuser: 0
+    community: ''
+    districtCode: ''
+    streetCode: ''
+    departmentCode: ''
+    gridCode: ''
